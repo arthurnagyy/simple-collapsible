@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+.card {
+  margin: 60px auto 0 auto;
+  width: 600px;
+  padding: 20px;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
+  font-family: "Work Sans"; }
+  .card h1 {
+    font-size: 24px;
+    font-weight: bold; }
+  .card .collapsible-container {
+    margin-top: 20px; }
+    .card .collapsible-container .collapsible-title {
+      margin-bottom: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      cursor: pointer; }
+    .card .collapsible-container .collapsible-content-wrapper {
+      overflow: hidden; }
+      .card .collapsible-container .collapsible-content-wrapper .collapsible-content {
+        transition: 1s all 0s;
+        margin-top: -100%; }
+        .card .collapsible-container .collapsible-content-wrapper .collapsible-content img {
+          margin: 12px 0; }
+    .card .collapsible-container.collapsible-open .collapsible-content {
+      margin-top: 0; }
+
+/*# sourceMappingURL=custom.css.map */
